@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+.filter-container{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.filter-container label{
+    margin-right: 20px;
+}
+
+#employee-table th , #employee-table td{
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+}
+#employee-table th {
+    background-color: aqua;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+}
